@@ -1,9 +1,4 @@
-function callFunction(fun){
-  fun();
-}
+var counter = require("./count");
 
-var sayBye = function(){
-  console.log('bye');
-};
+console.log(counter (['shaun', 'crystal', 'ryu']));
 
-callFunction(sayBye);
