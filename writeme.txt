@@ -1,0 +1,5 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Totum autem id externum est, et quod externum, id in casu est. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Ergo infelix una molestia, fellx rursus, cum is ipse anulus in praecordiis piscis inventus est? Manebit ergo amicitia tam diu, quam diu sequetur utilitas, et, si utilitas amicitiam constituet, tollet eadem. Egone quaeris, inquit, quid sentiam? Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. Apud ceteros autem philosophos, qui quaesivit aliquid, tacet;
+
+Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Ita enim vivunt quidam, ut eorum vita refellatur oratio. Illa tamen simplicia, vestra versuta. Quid enim ab antiquis ex eo genere, quod ad disserendum valet, praetermissum est?
+
+Itaque his sapiens semper vacabit. Saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum scientia; Neque solum ea communia, verum etiam paria esse dixerunt. In his igitur partibus duabus nihil erat, quod Zeno commutare gestiret. Omnes enim iucundum motum, quo sensus hilaretur. Nihil enim iam habes, quod ad corpus referas;
