@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A little test app",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milomacphail/nodejsnetninja.git"
+  },
+  "keywords": [
+    "Fun"
+  ],
+  "author": "Milo MacPhail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milomacphail/nodejsnetninja/issues"
+  },
+  "homepage": "https://github.com/milomacphail/nodejsnetninja#readme"
+}
