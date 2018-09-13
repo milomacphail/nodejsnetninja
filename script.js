@@ -1,24 +1,13 @@
-var http = require('http');
+var express = require('express');
 
-var fs = require('fs');
+var app = express();
 
-var server = http.createServer(function(req, res){
-    console.log("The request was made "+ req.url);
-    if (req.url === '/home' || req.url === '/'){
-        res.writeHead(200, {"Content-type": "text/html"});
-        fs.createReadStream(__dirname + './index.html').pipe(res);
-    } else if (req.url === '/contact'){
-        res.writeHead(200, {"Content-type": "text/html"});
-        fs.createReadStream(__dirname + './contact.html').pipe(res);    
-    } else if (req.url === '/api/ninjas'){
-        var ninjas = [{name: 'ryu', age: 29}, {name: 'yoshi', age: 32}];
-        res.writeHead(200, {"Content-type": "application/json"});
-        res.end(JSON.stringify(ninjas));
-    } else {
-        res.writeHead(404, {"Content-type": "text/html"});
-        fs.createReadStream(__dirname + './404.html').pipe(res);
-    }
+    app.get("/", function(req, res){
+    res.send('this is the homepage');
+});
+    
+    app.get("/contact", function(req, res){
+    res.send('this is the contact page');
 });
 
-server.listen(80, "127.0.0.1");
-console.log("Now listening to port 80");
+app.listen(3000);
