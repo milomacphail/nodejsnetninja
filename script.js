@@ -10,4 +10,8 @@ var app = express();
     res.send('this is the contact page');
 });
 
+    app.get("/profile/:id", function(req, res){
+        res.send("You requested to see the profile of: " + req.params.id);
+    })
+
 app.listen(3000);
