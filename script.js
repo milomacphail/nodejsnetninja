@@ -1,5 +1,10 @@
-var fs = require("fs");
+var http = require('http');
 
-fs.unlink('./stuff/writeMe.txt', function(){
-    fs.rmdir("stuff");
+var server = http.createServer(function(req, res){
+    console.log("The request was made "+ req.url);
+    res.writeHead(200, {"content-type": "text/plain"});
+    res.end("Hey Ninjas");
 });
+
+server.listen(3000, "127.0.0.1");
+console.log("Now listening to port 3000");
