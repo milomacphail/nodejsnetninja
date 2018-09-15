@@ -1,19 +1,19 @@
 var express = require('express');
 
-var app = express();
+var app = express()
 
 app.set('view engine', 'ejs');
 
     app.get("/", function(req, res){
-    res.sendFile(__dirname + '/index.html');
+    res.render(__dirname + 'index');
 });
     
     app.get("/contact", function(req, res){
-    res.sendFile(__dirname + '/contact.html');
+    res.render(__dirname + 'contact');
 });
 
     app.get("/profile/:name", function(req, res){
-        var data = {job: "ninja", age: 29};
+        var data = {job: "ninja", age: 29, hobbies: ["fishing", "hiking", "dining"]};
         res.render('profile', {person: req.params.name, data: data});
     });
 
