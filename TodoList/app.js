@@ -8,7 +8,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 //static files
-app.use(express.static('./TodoList'));
+app.use('/assets', express.static('assets'));
 
 //firecontrollers
 todoController(app);
